@@ -51,6 +51,9 @@ void merge(vector<int> &arr, int s, int e){
             k++;
         }
     }
+
+    delete []first;
+    delete []second;
 }
 
 void mergeSort(vector<int> &arr, int s, int e){
