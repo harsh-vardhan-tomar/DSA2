@@ -57,7 +57,7 @@ void merge(vector<int> &arr, int s, int e){
 }
 
 void mergeSort(vector<int> &arr, int s, int e){
-    if(s>e){
+    if(s>=e){
         return;
     }
     if(s<e){
